@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'LinKingEnSDK'
+  s.name             = 'LinKingEnSDKNew'
   s.version          = '0.1.48'
-  s.summary          = 'LinKingEnSDK foreign version'
+  s.summary          = 'LinKingEnSDKNew foreign version'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/MrDML/LingKingSDK'
+  s.homepage         = 'https://github.com/linkinggame/LinKingEnSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'leaon' => 'leaon' }
-  s.source           = { :git => 'https://github.com/MrDML/LingKingSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/linkinggame/LinKingEnSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
