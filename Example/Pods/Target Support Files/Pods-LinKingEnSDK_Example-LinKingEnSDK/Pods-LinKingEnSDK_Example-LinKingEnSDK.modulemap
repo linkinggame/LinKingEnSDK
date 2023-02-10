@@ -1,6 +1,0 @@
-framework module Pods_LinKingEnSDK_Example_LinKingEnSDK {
-  umbrella header "Pods-LinKingEnSDK_Example-LinKingEnSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}
