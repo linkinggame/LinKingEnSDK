@@ -65,7 +65,7 @@ TODO: Add long description of the pod here.
       s.dependency 'IronSourceSDK','>= 7.1.1.0'
       s.dependency 'IronSourceAdMobAdapter','>= 4.3.19.1'
       s.dependency 'IronSourcePangleAdapter','>= 4.3.0.2'
-        s.dependency 'AFNetworking', '~> 4.0.1'
+       # s.dependency 'AFNetworking', '~> 4.0.1'
       s.xcconfig = {
           'VALID_ARCHS' =>  'arm64 x86_64 armv7',
       }
