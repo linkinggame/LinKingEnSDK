@@ -240,6 +240,7 @@
 		07B2D054256678E000765FD2 /* fbButtonSingle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07B2D051256678E000765FD2 /* fbButtonSingle@2x.png */; };
 		07B2D055256678E000765FD2 /* ggButtonSingle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07B2D052256678E000765FD2 /* ggButtonSingle@2x.png */; };
 		07B2D05B256678F800765FD2 /* LEBindingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B406E82553C70D008FBFD5 /* LEBindingView.xib */; };
+		07B34E172CE36BE200D061DF /* LinKingEnSDKNew.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 07B34E162CE36BE200D061DF /* LinKingEnSDKNew.podspec */; };
 		07B407262553C70D008FBFD5 /* LENetUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B406832553C70C008FBFD5 /* LENetUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07B407272553C70D008FBFD5 /* LENetWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B406842553C70C008FBFD5 /* LENetWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07B407282553C70D008FBFD5 /* LEReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B406852553C70C008FBFD5 /* LEReachability.m */; };
@@ -686,6 +687,7 @@
 		07B2D050256678E000765FD2 /* appleBindBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appleBindBg@2x.png"; sourceTree = "<group>"; };
 		07B2D051256678E000765FD2 /* fbButtonSingle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fbButtonSingle@2x.png"; sourceTree = "<group>"; };
 		07B2D052256678E000765FD2 /* ggButtonSingle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ggButtonSingle@2x.png"; sourceTree = "<group>"; };
+		07B34E162CE36BE200D061DF /* LinKingEnSDKNew.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LinKingEnSDKNew.podspec; path = ../LinKingEnSDKNew.podspec; sourceTree = "<group>"; };
 		07B406832553C70C008FBFD5 /* LENetUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LENetUtils.h; sourceTree = "<group>"; };
 		07B406842553C70C008FBFD5 /* LENetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LENetWork.h; sourceTree = "<group>"; };
 		07B406852553C70C008FBFD5 /* LEReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEReachability.m; sourceTree = "<group>"; };
@@ -857,7 +859,6 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9EDD82668B1C14AA43D828B7 /* LinKingEnSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LinKingEnSDK.podspec; path = ../LinKingEnSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ADE18F6ADF968E42B29496E2 /* Pods-LinKingEnSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinKingEnSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-LinKingEnSDK_Example/Pods-LinKingEnSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DE2F6FB968451FC2C9A21BBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1521,7 +1522,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				9EDD82668B1C14AA43D828B7 /* LinKingEnSDK.podspec */,
+				07B34E162CE36BE200D061DF /* LinKingEnSDKNew.podspec */,
 				DE2F6FB968451FC2C9A21BBA /* README.md */,
 				0EC3EE5575A47958E2D92EF3 /* LICENSE */,
 			);
@@ -2019,6 +2020,7 @@
 				077CF48324E1232400EC8E5F /* green_bg@3x.png in Resources */,
 				077CF4A224E1232400EC8E5F /* loginSuccess@3x.png in Resources */,
 				07220C0D26204258006CAC14 /* fb_icon@2x.png in Resources */,
+				07B34E172CE36BE200D061DF /* LinKingEnSDKNew.podspec in Resources */,
 				077CF48E24E1232400EC8E5F /* loginFail@3x.png in Resources */,
 				077CF4A524E1232400EC8E5F /* green_bg.png in Resources */,
 				077CF4BD24E1232400EC8E5F /* fbButton@2x.png in Resources */,
