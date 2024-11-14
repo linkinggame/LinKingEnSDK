@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSDictionary *)getLinKingBundleInfo;
 + (NSString *)getConfigURL;
 + (NSString *)getConfigAPI;
++ (NSString *)getSysAPI;
++ (NSString *)getSysPrefix;
 + (NSString *)getSDKVersion;
 + (NSString *)getReportedLogURL;
 @end
