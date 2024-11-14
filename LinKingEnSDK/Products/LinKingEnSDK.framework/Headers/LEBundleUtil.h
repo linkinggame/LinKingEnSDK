@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface LEBundleUtil : NSObject
 + (NSDictionary *)getLinKingBundleInfo;
 + (NSString *)getConfigURL;
++ (NSString *)getConfigAPI;
 + (NSString *)getSDKVersion;
 + (NSString *)getReportedLogURL;
 @end

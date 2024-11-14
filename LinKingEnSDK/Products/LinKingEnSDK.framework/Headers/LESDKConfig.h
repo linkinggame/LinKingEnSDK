@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSDictionary *ad_config_ios;
 @property (nonatomic, strong) NSDictionary *share_info;
 @property (nonatomic, strong) NSDictionary *updateGame;
-
+@property (nonatomic, strong) NSDictionary *pay_config;
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 + (LESDKConfig *)getSDKConfig;
 + (void)setSDKConfig:(LESDKConfig *)config;
