@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)googleLoginWithToken:(NSString *)token complete:(void(^)(NSError *_Nullable error,LEUser *_Nullable user))complete;
 /// 自动登录
 /// @param complete complete description
-+ (void)autoLoginComplete:(void(^)(NSError *error))complete;
++ (void)autoLoginComplete:(void(^)(LEUser *user,NSError *error))complete;
 @end
 
 NS_ASSUME_NONNULL_END
