@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LESystem : NSObject<NSSecureCoding>
-@property (nonatomic,copy) NSString *appID;
+@property (nonatomic,copy) NSString *appId;
 @property (nonatomic,copy) NSString *secretkey;
 // 登录方式 guest facebook google game
 @property (nonatomic,copy) NSString *loginStyle;
