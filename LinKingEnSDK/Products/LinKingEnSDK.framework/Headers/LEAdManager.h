@@ -106,7 +106,8 @@ typedef NS_ENUM(NSInteger,LEPAYUSERTYPE) {
 /// 展示激励视频广告
 /// @param type LK_UNDEFINED:未定义 LK_ALREADYPAY:已经付费 LK_NOPAY:非付费
 - (void)showRewardVideoAdPayuser:(LEPAYUSERTYPE)type;
-
+/// 是否可以获取到激励视频
+- (BOOL)getRewardVideoAdIsValid;
 @end
 
 NS_ASSUME_NONNULL_END

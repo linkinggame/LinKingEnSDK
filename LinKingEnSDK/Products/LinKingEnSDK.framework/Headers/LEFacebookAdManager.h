@@ -61,7 +61,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 展示激励视频广告
 - (void)showFacebookRewardVideoAd;
 
-
+/// 获取广告是否已经可以获取
+- (BOOL)getRewardVideoAdIsValid;
 
 @end
 

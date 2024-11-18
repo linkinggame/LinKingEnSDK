@@ -63,7 +63,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)initializationIronSourceRewardVideoAd:(UIViewController *)viewController;
 /// 展示激励视频广告
 - (void)showIronSourceRewardVideoAd;
-
+// 是否可以获取
+- (BOOL)getRewardVideoAdIsValid;
 @end
 
 NS_ASSUME_NONNULL_END
