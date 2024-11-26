@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LinKingEnSDKNew'
-  s.version          = '0.1.61'
+  s.version          = '0.1.62'
   s.summary          = 'LinKingEnSDK foreign version'
 
 # This description is used to generate tags and improve search results.
@@ -29,12 +29,11 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  
+  s.static_framework = true
 
-  #s.static_framework = true
 
-    
-  #s.vendored_frameworks = "LinKingEnSDK/Products/LinKingEnSDK.framework"
-  #s.resources = "LinKingEnSDK/Assets/*.*"
+
   s.source_files = 'LinKingEnSDK/Classes/**/*.*'
   s.resources = "LinKingEnSDK/Assets/*.*"
   s.dependency 'FBSDKLoginKit', '~> 11.0.1'
@@ -46,9 +45,7 @@ TODO: Add long description of the pod here.
   s.dependency 'FBAudienceNetwork', '~> 6.5.1'
   s.dependency 'IronSourceSDK','7.1.1.0'
   s.dependency 'IronSourcePangleAdapter','4.3.0.2'
-  #s.xcconfig = {
-  #    'VALID_ARCHS' =>  'arm64 x86_64 armv7',
-  #}
+
   
   # s.resource_bundles = {
   #   'LinKingEnSDK' => ['LinKingEnSDK/Assets/*.png']
