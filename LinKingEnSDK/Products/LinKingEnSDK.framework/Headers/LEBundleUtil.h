@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)getSysPrefix;
 + (NSString *)getSDKVersion;
 + (NSString *)getReportedLogURL;
+/// 是否允许广告追踪
++ (BOOL)getTracKing;
 @end
 
 NS_ASSUME_NONNULL_END

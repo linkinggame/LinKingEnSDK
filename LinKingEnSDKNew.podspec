@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LinKingEnSDKNew'
-  s.version          = '0.1.60'
+  s.version          = '0.1.61'
   s.summary          = 'LinKingEnSDK foreign version'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,9 @@ TODO: Add long description of the pod here.
   s.static_framework = true
 
     
-  s.vendored_frameworks = "LinKingEnSDK/Products/LinKingEnSDK.framework"
+  #s.vendored_frameworks = "LinKingEnSDK/Products/LinKingEnSDK.framework"
+  #s.resources = "LinKingEnSDK/Assets/*.*"
+  s.source_files = "LinKingEnSDK/Classes/**/*.*"
   s.resources = "LinKingEnSDK/Assets/*.*"
   s.dependency 'FBSDKLoginKit', '~> 11.0.1'
   s.dependency 'FBSDKShareKit', '~> 11.0.1'
