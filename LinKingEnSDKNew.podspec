@@ -33,25 +33,21 @@ TODO: Add long description of the pod here.
   s.static_framework = true
 
 
-
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  
   s.source_files = 'LinKingEnSDK/Classes/**/*.*'
   s.resources = "LinKingEnSDK/Assets/*.*"
-  s.dependency 'FBSDKLoginKit', '~> 11.0.1'
-  s.dependency 'FBSDKShareKit', '~> 11.0.1'
+
+  s.dependency 'FBSDKLoginKit', '~> 11.2.0'
+  s.dependency 'FBSDKShareKit', '~> 11.2.0'
   s.dependency 'Beta-AppsFlyerFramework', '~> 6.0.2.174'
-  s.dependency 'SDWebImage', '~> 5.0.0'
+  s.dependency 'SDWebImage', '~> 5.0.6'
   s.dependency 'Toast', '~> 4.0.0'
   s.dependency 'AFNetworking', '~> 4.0.1'
   s.dependency 'FBAudienceNetwork', '~> 6.5.1'
   s.dependency 'IronSourceSDK','7.1.1.0'
   s.dependency 'IronSourcePangleAdapter','4.3.0.2'
 
-  
-  # s.resource_bundles = {
-  #   'LinKingEnSDK' => ['LinKingEnSDK/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
