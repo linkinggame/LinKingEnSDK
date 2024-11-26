@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.static_framework = true
+  #s.static_framework = true
 
     
   #s.vendored_frameworks = "LinKingEnSDK/Products/LinKingEnSDK.framework"
@@ -46,9 +46,9 @@ TODO: Add long description of the pod here.
   s.dependency 'FBAudienceNetwork', '~> 6.5.1'
   s.dependency 'IronSourceSDK','7.1.1.0'
   s.dependency 'IronSourcePangleAdapter','4.3.0.2'
-  s.xcconfig = {
-      'VALID_ARCHS' =>  'arm64 x86_64 armv7',
-  }
+  #s.xcconfig = {
+  #    'VALID_ARCHS' =>  'arm64 x86_64 armv7',
+  #}
   
   # s.resource_bundles = {
   #   'LinKingEnSDK' => ['LinKingEnSDK/Assets/*.png']
