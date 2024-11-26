@@ -240,7 +240,6 @@
 		07B2D054256678E000765FD2 /* fbButtonSingle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07B2D051256678E000765FD2 /* fbButtonSingle@2x.png */; };
 		07B2D055256678E000765FD2 /* ggButtonSingle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07B2D052256678E000765FD2 /* ggButtonSingle@2x.png */; };
 		07B2D05B256678F800765FD2 /* LEBindingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B406E82553C70D008FBFD5 /* LEBindingView.xib */; };
-		07B34E172CE36BE200D061DF /* LinKingEnSDKNew.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 07B34E162CE36BE200D061DF /* LinKingEnSDKNew.podspec */; };
 		07B407262553C70D008FBFD5 /* LENetUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B406832553C70C008FBFD5 /* LENetUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07B407272553C70D008FBFD5 /* LENetWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B406842553C70C008FBFD5 /* LENetWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07B407282553C70D008FBFD5 /* LEReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B406852553C70C008FBFD5 /* LEReachability.m */; };
@@ -380,6 +379,7 @@
 		07B407AE2553C70D008FBFD5 /* LEAFManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B407232553C70D008FBFD5 /* LEAFManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07B407AF2553C70D008FBFD5 /* LEAFManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B407242553C70D008FBFD5 /* LEAFManager.m */; };
 		07B407B02553C70D008FBFD5 /* LEPointManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B407252553C70D008FBFD5 /* LEPointManager.m */; };
+		07D2D4282CF5775A00E02498 /* LinKingEnSDKNew.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 07D2D4272CF5775A00E02498 /* LinKingEnSDKNew.podspec */; };
 		07FF8DC024DCFE3F003EAD9A /* LinKingEnSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FF8DB724DCFE3F003EAD9A /* LinKingEnSDK.framework */; };
 		07FF8DC724DCFE3F003EAD9A /* LinKingEnSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FF8DC624DCFE3F003EAD9A /* LinKingEnSDKTests.m */; };
 		07FF8DCC24DCFE3F003EAD9A /* LinKingEnSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FF8DB724DCFE3F003EAD9A /* LinKingEnSDK.framework */; };
@@ -687,7 +687,6 @@
 		07B2D050256678E000765FD2 /* appleBindBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appleBindBg@2x.png"; sourceTree = "<group>"; };
 		07B2D051256678E000765FD2 /* fbButtonSingle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fbButtonSingle@2x.png"; sourceTree = "<group>"; };
 		07B2D052256678E000765FD2 /* ggButtonSingle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ggButtonSingle@2x.png"; sourceTree = "<group>"; };
-		07B34E162CE36BE200D061DF /* LinKingEnSDKNew.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LinKingEnSDKNew.podspec; path = ../LinKingEnSDKNew.podspec; sourceTree = "<group>"; };
 		07B406832553C70C008FBFD5 /* LENetUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LENetUtils.h; sourceTree = "<group>"; };
 		07B406842553C70C008FBFD5 /* LENetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LENetWork.h; sourceTree = "<group>"; };
 		07B406852553C70C008FBFD5 /* LEReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEReachability.m; sourceTree = "<group>"; };
@@ -827,6 +826,7 @@
 		07B407232553C70D008FBFD5 /* LEAFManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEAFManager.h; sourceTree = "<group>"; };
 		07B407242553C70D008FBFD5 /* LEAFManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEAFManager.m; sourceTree = "<group>"; };
 		07B407252553C70D008FBFD5 /* LEPointManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEPointManager.m; sourceTree = "<group>"; };
+		07D2D4272CF5775A00E02498 /* LinKingEnSDKNew.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = LinKingEnSDKNew.podspec; path = ../LinKingEnSDKNew.podspec; sourceTree = SOURCE_ROOT; };
 		07FF8DB724DCFE3F003EAD9A /* LinKingEnSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LinKingEnSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FF8DBA24DCFE3F003EAD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07FF8DBF24DCFE3F003EAD9A /* LinKingEnSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinKingEnSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1522,7 +1522,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				07B34E162CE36BE200D061DF /* LinKingEnSDKNew.podspec */,
+				07D2D4272CF5775A00E02498 /* LinKingEnSDKNew.podspec */,
 				DE2F6FB968451FC2C9A21BBA /* README.md */,
 				0EC3EE5575A47958E2D92EF3 /* LICENSE */,
 			);
@@ -2020,7 +2020,7 @@
 				077CF48324E1232400EC8E5F /* green_bg@3x.png in Resources */,
 				077CF4A224E1232400EC8E5F /* loginSuccess@3x.png in Resources */,
 				07220C0D26204258006CAC14 /* fb_icon@2x.png in Resources */,
-				07B34E172CE36BE200D061DF /* LinKingEnSDKNew.podspec in Resources */,
+				07D2D4282CF5775A00E02498 /* LinKingEnSDKNew.podspec in Resources */,
 				077CF48E24E1232400EC8E5F /* loginFail@3x.png in Resources */,
 				077CF4A524E1232400EC8E5F /* green_bg.png in Resources */,
 				077CF4BD24E1232400EC8E5F /* fbButton@2x.png in Resources */,
